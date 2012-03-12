@@ -1,0 +1,76 @@
+
+/* Layout
+-----------------------------------------*/
+
+div#menubar { height: 55px; }
+div#menubar .pad { width: 942px; margin: 0 auto; }
+div#menubar #mainmenu { float: left; }
+div#menubar a { border-bottom: 0 none; }
+div#menubar h3 { display: none; }
+div#menubar ul { display: block; margin: 0; padding: 0 0 0 15px; list-style: none; height: 50px;  }
+div#menubar ul li { display: block; margin: 0 0 0 10px; padding: 0; float: left; position: relative; height: 50px; }
+div#menubar ul ul { 
+	position: absolute; display: none; width: 15em; float: none; 
+	margin: 0; padding: 0; left: 0; height: auto; z-index: 9999999;
+}
+div#menubar ul ul li { padding: 0; margin: 0; float: none; height: auto; }
+div#menubar ul ul ul { float: left; margin: 0; top: 0; padding: 0;}
+
+div#menubar ul li a { display: block; margin: 0; padding: 0 15px; outline: none; text-decoration: none; }
+div#menubar ul li a span.sf-sub-indicator { float: right; padding: 0 0 0 7px; }
+
+div#menubar ul ul a { display: block; margin: 0; padding: 10px 15px; outline: none; height: auto; border: 0 none; }
+div#menubar ul ul a span.sf-sub-indicator { display: block; float: right; height: auto; }
+
+div#menubar ul li:hover a, div#menubar ul li.hover a {  }
+div#menubar ul li.current_page_item a { }
+div#menubar ul li.current-menu-item a { }
+
+div#menubar ul li:hover ul, div#menubar ul li.hover ul { display: block; z-index: 999999; }
+
+div#menubar .box-search { float: right; margin: 11px 0 0 0; }
+div#menubar .box-search label { display: none; }
+div#menubar .box-search span.input { display: block; }
+div#menubar .box-search input { width: 210px; margin: 0; padding: 11px 10px 11px 40px; border: 0 none; }
+div#menubar .box-search button { display: none; }
+
+
+
+/* Colors and Images
+-----------------------------------------*/
+
+div#menubar { background-color: #DAC189; }
+
+div#menubar ul li { }
+div#menubar ul li a { color: #882311; /*text-shadow: #8A8647 1px 1px;*/ }
+div#menubar ul li:hover a { color: #D94102; } 
+div#menubar ul li.hover a { color: #D94102; }
+div#menubar ul li.current_page_item a { color: #D94102; }
+div#menubar ul li.current-menu-item a { color: #D94102; }
+
+div#menubar ul li:hover ul { }
+div#menubar ul li.hover ul { }
+
+div#menubar ul li:hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat; }
+div#menubar ul li.hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat; }
+div#menubar ul li:hover li:hover a { color: #fff; }
+div#menubar ul li.hover li.hover a { color: #fff; }
+
+div#menubar ul li:hover li:hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat;  }
+div#menubar ul li.hover li.hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat;  }
+div#menubar ul li:hover li:hover li:hover a { color: #fff; }
+div#menubar ul li.hover li.hover li.hover a { color: #fff; }
+
+div#menubar .box-search input { 
+	color: #630;
+	background: transparent url('../images/input-search.png') left top no-repeat; 
+}
+
+
+/* Typography
+-----------------------------------------*/
+
+div#menubar ul li a { font: normal 15px/55px Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight:bold;}
+div#menubar ul ul li a { font: normal 15px/20px Helvetica, Arial, sans-serif; }
+
+div#menubar .box-search input { font: normal 11px/11px 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif; }
