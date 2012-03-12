@@ -50,6 +50,11 @@ div#featured .pad { background: transparent url('../images/bg-featured-pad.jpg')
 div#body { 
 	background: olive; /*text-shadow: #fff 1px 1px*/
 	border-top-color: yellow; border-bottom-color: yellow;
+
+}
+.cajacolor{
+	background: #DAC189; 
+		
 }
 div#body .pad {  }
 

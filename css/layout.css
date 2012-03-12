@@ -87,6 +87,12 @@ div#body .content-singular { padding: 5px 0; }
 	margin: 0 auto;	
 }
 
+.cajacolor{
+	height:8%;	
+	margin 0 0;
+	width: 100%; 
+}
+
 /*ESTO ES LO QUE HABÍA ANTES------------------------------*/
 /*div#body .pad { padding: 32px 0; }
 div#body .pad { width: 942px; margin: 0 auto; padding: 0; }
