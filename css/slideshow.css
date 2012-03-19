@@ -7,21 +7,21 @@ div#slideshow .list { position: absolute; width: 742px; height: 400px; z-index: 
 div#slideshow .button {
 	display: block; width: 64px; height: 64px; position: absolute; top: 155px;
 	outline: 0 none;
-	/*
+	
 	filter:alpha(opacity=20);
-	-moz-opacity:0.2;
-	-khtml-opacity: 0.2;
-	opacity: 0.2;
-	*/
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	
 }
-/*
+
 div#slideshow .button:hover {
 	filter:alpha(opacity=1);
 	-moz-opacity:1.0;
 	-khtml-opacity: 1.0;
 	opacity: 1.0;
 }
-*/
+
 div#slideshow #jqc-prev { 
 	border-bottom: 0 none;
 	left: -100px; background: transparent url('../images/slideshow/arrow-l.png') left top no-repeat;
@@ -34,7 +34,16 @@ div#slideshow #jqc-next {
 div#slideshow .item { width: 742px; height: 300px; margin: 0; }
 div#slideshow .item .image { display: block; float: right; padding:  0; margin: 0 -20px 0 0; }
 div#slideshow .item .image a { display: block; position: relative}
-div#slideshow .item .image img { padding: 16px 54px 98px 54px; /*background: transparent url('../images/bg-featured-image.png') center center no-repeat;*/ }
+div#slideshow .item .image img { 	
+	/*background: transparent url('../images/bg-featured-image.png') center center no-repeat;*/ 
+	border: 4px solid olive;
+	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	height:370px;
+	margin: 10px 50px;
+	/*padding: 16px 54px 98px 54px; */
+}
 div#slideshow .item .meta  { width: 283px; padding: 0 0 0 20px; float: left; }
 div#slideshow h3 { 
 	font: bold 28px/32px Rockwell, Helvetica, Arial, sans-serif; 

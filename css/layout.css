@@ -41,10 +41,10 @@ div#container {
 div#header {  }
 div#header .pad { width: 942px; margin: 0 auto; }
 div#header h3 { display: none; }
-div#header .box-masthead { height: 100px; margin: 0; float: left; } //barra de arriba
+div#header .box-masthead { height: 170px; margin: 0; float: left; } //barra de arriba
 div#header .title { display: block; margin: 0; padding: 0; }
 div#header .title a { 
-	display: block; width: 200px; height: 59px; margin: 0; padding: 0; 
+	display: block; width: 300px; height: 220px; margin: 0; padding: 0; 
 	float: left; text-indent: -999999px; outline: none; border-bottom: 0 none;
 }
 div#header .description { display: none; }

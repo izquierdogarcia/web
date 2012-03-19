@@ -52,7 +52,7 @@ if (!empty($tracker)) {
 			
 			<div class="box box-socialnet">
 				<div class="title">
-					<h3>Estamos aqu&iacute tambi&eacuten...</h3>
+					<!--<h3>Estamos aqu&iacute tambi&eacuten...</h3>-->
 				</div>
 				<div class="interior">
 					<?php padd_theme_widget_socialnet(); ?>
