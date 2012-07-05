@@ -9,21 +9,21 @@ function padd_theme_widget_socialnet() {
 	$padd_sb_stumbleupon = unserialize(get_option(PADD_NAME_SPACE . '_sn_username_stumbleupon'));
 	$padd_sb_technorati = unserialize(get_option(PADD_NAME_SPACE . '_sn_username_technorati'));
 	$padd_sb_feedburner = unserialize(get_option(PADD_NAME_SPACE . '_sn_username_feedburner'));
-	$padd_sb_twitter = unserialize(get_option(PADD_NAME_SPACE . '_sn_username_twitter'));
+	$padd_sb_twitter = 'https://twitter.com/#!/lacolmenaverde'/*unserialize(get_option(PADD_NAME_SPACE . '_sn_username_twitter'))*/;
 ?>
 <ul class="socialnet">
 	<li class="twitter">
 		<a href="<?php echo $padd_sb_twitter; ?>" class="icon-twitter" title="Twitter Page">Follow my Tweets</a>
 	</li>
-	<li class="facebook">
-		<a href="<?php echo $padd_sb_facebook; ?>" class="icon-facebook" title="Facebook Profile">Be my Facebook fan</a>
-	</li>
+	<!--<li class="facebook">
+		<a href="<?php /*echo*/ $padd_sb_facebook; ?>" class="icon-facebook" title="Facebook Profile">Be my Facebook fan</a>
+	</li>-->
 	<li class="mail">
-		<a href="http://feedburner.google.com/fb/a/mailverify?uri=<?php echo $padd_sb_feedburner->get_username(); ?>" title="RSS Email">Subscribe via Email</a></span>
+		<a href="about/" title="RSS Email">Subscribe via Email</a></span>
 	</li>
-	<li class="rss">
-		<a href="<?php echo $padd_sb_feedburner; ?>" title="RSS Feed">Subscribe via RSS</a>
-	</li>
+	<!--<li class="rss">
+		<a href="<?php /*echo*/ $padd_sb_feedburner; ?>" title="RSS Feed">Subscribe via RSS</a>
+	</li>-->
 </ul>
 <?php
 }

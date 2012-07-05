@@ -11,7 +11,7 @@ blockquote blockquote { border-color: #c8c8c8; background: #fefefe none }
 blockquote blockquote blockquote { border-color: #c8c8c8; background: #eee none }
 
 a:link, a:visited { color: #882311; }
-a:hover, a:active { color: #882311; }
+a:hover, a:active { color: #882311; text-decoration:none;}
 
 
 /* Class selectors
@@ -27,7 +27,7 @@ a:hover, a:active { color: #882311; }
 /* Header
 -----------------------------------------*/
 
-div#header { background: #150903 none; }
+div#header { background: #271208 none; }
 div#header .title a { background: transparent url('../images/site-name.png') left top no-repeat; } //LOGOTIPO
 div#header .box-socialnet h3 { color: #963; text-shadow: 1px 1px #000; }
 div#header .box-socialnet ul li.facebook { background: transparent url('../images/icon-sn-facebook.png') left top no-repeat; }
@@ -40,7 +40,7 @@ div#header .box-socialnet ul li.mail { background: transparent url('../images/ic
 /* Featured
 -----------------------------------------*/
 
-div#featured { background: #150903 none; } //DETRÁS DE IMÁGENES QUE PASAN
+div#featured { background: #271208 none; } //DETRÁS DE IMÁGENES QUE PASAN
 div#featured .pad { background: transparent url('../images/bg-featured-pad.jpg') left bottom no-repeat; }
 
 
@@ -53,7 +53,7 @@ div#body {
 
 }
 .cajacolor{
-	background: #DAC189; 
+	background: #DAC189; //detras de tres opciones abajo
 		
 }
 div#body .pad {  }
@@ -65,7 +65,7 @@ div#sidebar .pad { background: transparent none; }
 
 /* Post
 ----------------------------------------*/
-.hentry { background: #150903 none; }
+.hentry { background: #271208 none; } //cajita reducida
 .hentry .meta p { color: #b5b5b5; }
 
 .content-group .hentry .thumbnail a { background: #000 none;}
@@ -80,11 +80,11 @@ div#sidebar .pad { background: transparent none; }
 .content-group .hentry h2 a { color: #882311; /*text-shadow: 1px 1px #000;*/ }
 .content-group .not-found .title h2 { color: #FFA446; /*text-shadow: 0px 0px #000; */}
 
-.contenedor{background: #150903;}
+.contenedor{background: #271208;} 
 /*.caja{background: blue; width: 100%;}*/
 
 .content-singular h1 { color: #FFA446; background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
-.content-singular {background: #150903;}
+.content-singular {background: #271208;}
 
 .not-found { background: #fff none; }
 .not-found .title { background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
